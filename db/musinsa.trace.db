@@ -1,0 +1,486 @@
+2024-05-17 16:13:34.977405+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO BRAND (ID, NAME)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO BRAND (ID, NAME) [42001-224]
+2024-05-17 16:13:34.985469+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (2, 'B')"; SQL statement:
+, (2, 'B') [42000-224]
+2024-05-17 16:13:34.986948+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (3, 'C')"; SQL statement:
+, (3, 'C') [42000-224]
+2024-05-17 16:13:34.988139+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (4, 'D')"; SQL statement:
+, (4, 'D') [42000-224]
+2024-05-17 16:13:34.988921+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (5, 'E')"; SQL statement:
+, (5, 'E') [42000-224]
+2024-05-17 16:13:34.991112+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (6, 'F')"; SQL statement:
+, (6, 'F') [42000-224]
+2024-05-17 16:13:34.992376+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (7, 'G')"; SQL statement:
+, (7, 'G') [42000-224]
+2024-05-17 16:13:34.993014+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (8, 'H')"; SQL statement:
+, (8, 'H') [42000-224]
+2024-05-17 16:13:34.993624+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (9, 'I')"; SQL statement:
+, (9, 'I') [42000-224]
+2024-05-17 16:13:34.994303+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ITEM (ID, CATEGORY, PRICE, BRAND_ID)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO ITEM (ID, CATEGORY, PRICE, BRAND_ID) [42001-224]
+2024-05-17 16:13:34.995169+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (2, 'OUTER', 5500, 1)"; SQL statement:
+, (2, 'OUTER', 5500, 1) [42000-224]
+2024-05-17 16:13:34.995747+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (3, 'PANTS', 4200, 1)"; SQL statement:
+, (3, 'PANTS', 4200, 1) [42000-224]
+2024-05-17 16:13:34.996362+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (4, 'SNEAKERS', 9000, 1)"; SQL statement:
+, (4, 'SNEAKERS', 9000, 1) [42000-224]
+2024-05-17 16:13:34.997017+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (5, 'BAG', 2000, 1)"; SQL statement:
+, (5, 'BAG', 2000, 1) [42000-224]
+2024-05-17 16:13:34.997607+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (6, 'HAT', 1700, 1)"; SQL statement:
+, (6, 'HAT', 1700, 1) [42000-224]
+2024-05-17 16:13:34.998189+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (7, 'SOCKS', 1800, 1)"; SQL statement:
+, (7, 'SOCKS', 1800, 1) [42000-224]
+2024-05-17 16:13:34.999320+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (8, 'ACCESSORY', 2300, 1)"; SQL statement:
+, (8, 'ACCESSORY', 2300, 1) [42000-224]
+2024-05-17 16:13:35.000340+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (9, 'TOP', 10500, 2)"; SQL statement:
+, (9, 'TOP', 10500, 2) [42000-224]
+2024-05-17 16:13:35.002186+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (10, 'OUTER', 5900, 2)"; SQL statement:
+, (10, 'OUTER', 5900, 2) [42000-224]
+2024-05-17 16:13:35.004305+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (11, 'PANTS', 3800, 2)"; SQL statement:
+, (11, 'PANTS', 3800, 2) [42000-224]
+2024-05-17 16:13:35.006050+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (12, 'SNEAKERS', 9100, 2)"; SQL statement:
+, (12, 'SNEAKERS', 9100, 2) [42000-224]
+2024-05-17 16:13:35.006896+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (13, 'BAG', 2100, 2)"; SQL statement:
+, (13, 'BAG', 2100, 2) [42000-224]
+2024-05-17 16:13:35.007644+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (14, 'HAT', 2000, 2)"; SQL statement:
+, (14, 'HAT', 2000, 2) [42000-224]
+2024-05-17 16:13:35.008323+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (15, 'SOCKS', 2000, 2)"; SQL statement:
+, (15, 'SOCKS', 2000, 2) [42000-224]
+2024-05-17 16:13:35.009194+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (16, 'ACCESSORY', 2200, 2)"; SQL statement:
+, (16, 'ACCESSORY', 2200, 2) [42000-224]
+2024-05-17 16:13:35.011210+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (17, 'TOP', 10000, 3)"; SQL statement:
+, (17, 'TOP', 10000, 3) [42000-224]
+2024-05-17 16:13:35.012125+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (18, 'OUTER', 6200, 3)"; SQL statement:
+, (18, 'OUTER', 6200, 3) [42000-224]
+2024-05-17 16:13:35.012920+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (19, 'PANTS', 3300, 3)"; SQL statement:
+, (19, 'PANTS', 3300, 3) [42000-224]
+2024-05-17 16:13:35.013918+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (20, 'SNEAKERS', 9200, 3)"; SQL statement:
+, (20, 'SNEAKERS', 9200, 3) [42000-224]
+2024-05-17 16:13:35.015437+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (21, 'BAG', 2200, 3)"; SQL statement:
+, (21, 'BAG', 2200, 3) [42000-224]
+2024-05-17 16:13:35.016707+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (22, 'HAT', 1900, 3)"; SQL statement:
+, (22, 'HAT', 1900, 3) [42000-224]
+2024-05-17 16:13:35.018809+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (23, 'SOCKS', 2200, 3)"; SQL statement:
+, (23, 'SOCKS', 2200, 3) [42000-224]
+2024-05-17 16:13:35.020270+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (24, 'ACCESSORY', 2100, 3)"; SQL statement:
+, (24, 'ACCESSORY', 2100, 3) [42000-224]
+2024-05-17 16:13:35.020995+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (25, 'TOP', 10100, 4)"; SQL statement:
+, (25, 'TOP', 10100, 4) [42000-224]
+2024-05-17 16:13:35.021574+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (26, 'OUTER', 5100, 4)"; SQL statement:
+, (26, 'OUTER', 5100, 4) [42000-224]
+2024-05-17 16:13:35.022334+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (27, 'PANTS', 3000, 4)"; SQL statement:
+, (27, 'PANTS', 3000, 4) [42000-224]
+2024-05-17 16:13:35.023027+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (28, 'SNEAKERS', 9500, 4)"; SQL statement:
+, (28, 'SNEAKERS', 9500, 4) [42000-224]
+2024-05-17 16:13:35.023687+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (29, 'BAG', 2500, 4)"; SQL statement:
+, (29, 'BAG', 2500, 4) [42000-224]
+2024-05-17 16:13:35.024896+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (30, 'HAT', 1500, 4)"; SQL statement:
+, (30, 'HAT', 1500, 4) [42000-224]
+2024-05-17 16:13:35.026546+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (31, 'SOCKS', 2400, 4)"; SQL statement:
+, (31, 'SOCKS', 2400, 4) [42000-224]
+2024-05-17 16:13:35.028122+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (32, 'ACCESSORY', 2000, 4)"; SQL statement:
+, (32, 'ACCESSORY', 2000, 4) [42000-224]
+2024-05-17 16:13:35.029605+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (33, 'TOP', 10700, 5)"; SQL statement:
+, (33, 'TOP', 10700, 5) [42000-224]
+2024-05-17 16:13:35.031182+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (34, 'OUTER', 5000, 5)"; SQL statement:
+, (34, 'OUTER', 5000, 5) [42000-224]
+2024-05-17 16:13:35.032901+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (35, 'PANTS', 3800, 5)"; SQL statement:
+, (35, 'PANTS', 3800, 5) [42000-224]
+2024-05-17 16:13:35.034626+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (36, 'SNEAKERS', 9900, 5)"; SQL statement:
+, (36, 'SNEAKERS', 9900, 5) [42000-224]
+2024-05-17 16:13:35.035667+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (37, 'BAG', 2300, 5)"; SQL statement:
+, (37, 'BAG', 2300, 5) [42000-224]
+2024-05-17 16:13:35.036342+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (38, 'HAT', 1800, 5)"; SQL statement:
+, (38, 'HAT', 1800, 5) [42000-224]
+2024-05-17 16:13:35.037042+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (39, 'SOCKS', 2100, 5)"; SQL statement:
+, (39, 'SOCKS', 2100, 5) [42000-224]
+2024-05-17 16:13:35.037659+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (40, 'ACCESSORY', 2100, 5)"; SQL statement:
+, (40, 'ACCESSORY', 2100, 5) [42000-224]
+2024-05-17 16:13:35.038205+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (41, 'TOP', 11200, 6)"; SQL statement:
+, (41, 'TOP', 11200, 6) [42000-224]
+2024-05-17 16:13:35.038856+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (42, 'OUTER', 7200, 6)"; SQL statement:
+, (42, 'OUTER', 7200, 6) [42000-224]
+2024-05-17 16:13:35.039472+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (43, 'PANTS', 4000, 6)"; SQL statement:
+, (43, 'PANTS', 4000, 6) [42000-224]
+2024-05-17 16:13:35.040454+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (44, 'SNEAKERS', 9300, 6)"; SQL statement:
+, (44, 'SNEAKERS', 9300, 6) [42000-224]
+2024-05-17 16:13:35.041979+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (45, 'BAG', 2100, 6)"; SQL statement:
+, (45, 'BAG', 2100, 6) [42000-224]
+2024-05-17 16:13:35.043437+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (46, 'HAT', 1600, 6)"; SQL statement:
+, (46, 'HAT', 1600, 6) [42000-224]
+2024-05-17 16:13:35.046248+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (47, 'SOCKS', 2300, 6)"; SQL statement:
+, (47, 'SOCKS', 2300, 6) [42000-224]
+2024-05-17 16:13:35.047829+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (48, 'ACCESSORY', 1900, 6)"; SQL statement:
+, (48, 'ACCESSORY', 1900, 6) [42000-224]
+2024-05-17 16:13:35.049212+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (49, 'TOP', 10500, 7)"; SQL statement:
+, (49, 'TOP', 10500, 7) [42000-224]
+2024-05-17 16:13:35.050853+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (50, 'OUTER', 5800, 7)"; SQL statement:
+, (50, 'OUTER', 5800, 7) [42000-224]
+2024-05-17 16:13:35.051947+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (51, 'PANTS', 3900, 7)"; SQL statement:
+, (51, 'PANTS', 3900, 7) [42000-224]
+2024-05-17 16:13:35.052685+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (52, 'SNEAKERS', 9000, 7)"; SQL statement:
+, (52, 'SNEAKERS', 9000, 7) [42000-224]
+2024-05-17 16:13:35.053270+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (53, 'BAG', 2200, 7)"; SQL statement:
+, (53, 'BAG', 2200, 7) [42000-224]
+2024-05-17 16:13:35.053810+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (54, 'HAT', 1700, 7)"; SQL statement:
+, (54, 'HAT', 1700, 7) [42000-224]
+2024-05-17 16:13:35.054309+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (55, 'SOCKS', 2100, 7)"; SQL statement:
+, (55, 'SOCKS', 2100, 7) [42000-224]
+2024-05-17 16:13:35.054789+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (56, 'ACCESSORY', 2000, 7)"; SQL statement:
+, (56, 'ACCESSORY', 2000, 7) [42000-224]
+2024-05-17 16:13:35.055320+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (57, 'TOP', 10800, 8)"; SQL statement:
+, (57, 'TOP', 10800, 8) [42000-224]
+2024-05-17 16:13:35.055882+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (58, 'OUTER', 6300, 8)"; SQL statement:
+, (58, 'OUTER', 6300, 8) [42000-224]
+2024-05-17 16:13:35.056606+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (59, 'PANTS', 3100, 8)"; SQL statement:
+, (59, 'PANTS', 3100, 8) [42000-224]
+2024-05-17 16:13:35.057393+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (60, 'SNEAKERS', 9700, 8)"; SQL statement:
+, (60, 'SNEAKERS', 9700, 8) [42000-224]
+2024-05-17 16:13:35.059063+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (61, 'BAG', 2100, 8)"; SQL statement:
+, (61, 'BAG', 2100, 8) [42000-224]
+2024-05-17 16:13:35.060054+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (62, 'HAT', 1600, 8)"; SQL statement:
+, (62, 'HAT', 1600, 8) [42000-224]
+2024-05-17 16:13:35.060791+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (63, 'SOCKS', 2000, 8)"; SQL statement:
+, (63, 'SOCKS', 2000, 8) [42000-224]
+2024-05-17 16:13:35.062343+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (64, 'ACCESSORY', 2000, 8)"; SQL statement:
+, (64, 'ACCESSORY', 2000, 8) [42000-224]
+2024-05-17 16:13:35.063679+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (65, 'TOP', 11400, 9)"; SQL statement:
+, (65, 'TOP', 11400, 9) [42000-224]
+2024-05-17 16:13:35.064748+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (66, 'OUTER', 6700, 9)"; SQL statement:
+, (66, 'OUTER', 6700, 9) [42000-224]
+2024-05-17 16:13:35.066563+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (67, 'PANTS', 3200, 9)"; SQL statement:
+, (67, 'PANTS', 3200, 9) [42000-224]
+2024-05-17 16:13:35.067808+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (68, 'SNEAKERS', 9500, 9)"; SQL statement:
+, (68, 'SNEAKERS', 9500, 9) [42000-224]
+2024-05-17 16:13:35.068524+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (69, 'BAG', 2400, 9)"; SQL statement:
+, (69, 'BAG', 2400, 9) [42000-224]
+2024-05-17 16:13:35.069205+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (70, 'HAT', 1700, 9)"; SQL statement:
+, (70, 'HAT', 1700, 9) [42000-224]
+2024-05-17 16:13:35.069857+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (71, 'SOCKS', 1700, 9)"; SQL statement:
+, (71, 'SOCKS', 1700, 9) [42000-224]
+2024-05-17 16:13:35.070618+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (72, 'ACCESSORY', 2400, 9)"; SQL statement:
+, (72, 'ACCESSORY', 2400, 9) [42000-224]
+2024-05-17 16:14:21.982884+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO BRAND (ID, NAME)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO BRAND (ID, NAME) [42001-224]
+2024-05-17 16:14:21.993279+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (2, 'B')"; SQL statement:
+, (2, 'B') [42000-224]
+2024-05-17 16:14:21.994864+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (3, 'C')"; SQL statement:
+, (3, 'C') [42000-224]
+2024-05-17 16:14:21.996691+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (4, 'D')"; SQL statement:
+, (4, 'D') [42000-224]
+2024-05-17 16:14:21.998108+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (5, 'E')"; SQL statement:
+, (5, 'E') [42000-224]
+2024-05-17 16:14:21.998957+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (6, 'F')"; SQL statement:
+, (6, 'F') [42000-224]
+2024-05-17 16:14:21.999672+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (7, 'G')"; SQL statement:
+, (7, 'G') [42000-224]
+2024-05-17 16:14:22.000454+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (8, 'H')"; SQL statement:
+, (8, 'H') [42000-224]
+2024-05-17 16:14:22.002759+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (9, 'I')"; SQL statement:
+, (9, 'I') [42000-224]
+2024-05-17 16:14:22.005380+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ITEM (ID, CATEGORY, PRICE, BRAND_ID)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO ITEM (ID, CATEGORY, PRICE, BRAND_ID) [42001-224]
+2024-05-17 16:14:22.014418+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (2, 'OUTER', 5500, 1)"; SQL statement:
+, (2, 'OUTER', 5500, 1) [42000-224]
+2024-05-17 16:14:22.015306+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (3, 'PANTS', 4200, 1)"; SQL statement:
+, (3, 'PANTS', 4200, 1) [42000-224]
+2024-05-17 16:14:22.015977+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (4, 'SNEAKERS', 9000, 1)"; SQL statement:
+, (4, 'SNEAKERS', 9000, 1) [42000-224]
+2024-05-17 16:14:22.017372+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (5, 'BAG', 2000, 1)"; SQL statement:
+, (5, 'BAG', 2000, 1) [42000-224]
+2024-05-17 16:14:22.018679+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (6, 'HAT', 1700, 1)"; SQL statement:
+, (6, 'HAT', 1700, 1) [42000-224]
+2024-05-17 16:14:22.019515+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (7, 'SOCKS', 1800, 1)"; SQL statement:
+, (7, 'SOCKS', 1800, 1) [42000-224]
+2024-05-17 16:14:22.020716+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (8, 'ACCESSORY', 2300, 1)"; SQL statement:
+, (8, 'ACCESSORY', 2300, 1) [42000-224]
+2024-05-17 16:14:22.022100+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (9, 'TOP', 10500, 2)"; SQL statement:
+, (9, 'TOP', 10500, 2) [42000-224]
+2024-05-17 16:14:22.022888+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (10, 'OUTER', 5900, 2)"; SQL statement:
+, (10, 'OUTER', 5900, 2) [42000-224]
+2024-05-17 16:14:22.024188+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (11, 'PANTS', 3800, 2)"; SQL statement:
+, (11, 'PANTS', 3800, 2) [42000-224]
+2024-05-17 16:14:22.025186+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (12, 'SNEAKERS', 9100, 2)"; SQL statement:
+, (12, 'SNEAKERS', 9100, 2) [42000-224]
+2024-05-17 16:14:22.026486+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (13, 'BAG', 2100, 2)"; SQL statement:
+, (13, 'BAG', 2100, 2) [42000-224]
+2024-05-17 16:14:22.028212+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (14, 'HAT', 2000, 2)"; SQL statement:
+, (14, 'HAT', 2000, 2) [42000-224]
+2024-05-17 16:14:22.029016+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (15, 'SOCKS', 2000, 2)"; SQL statement:
+, (15, 'SOCKS', 2000, 2) [42000-224]
+2024-05-17 16:14:22.029690+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (16, 'ACCESSORY', 2200, 2)"; SQL statement:
+, (16, 'ACCESSORY', 2200, 2) [42000-224]
+2024-05-17 16:14:22.030438+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (17, 'TOP', 10000, 3)"; SQL statement:
+, (17, 'TOP', 10000, 3) [42000-224]
+2024-05-17 16:14:22.031157+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (18, 'OUTER', 6200, 3)"; SQL statement:
+, (18, 'OUTER', 6200, 3) [42000-224]
+2024-05-17 16:14:22.031813+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (19, 'PANTS', 3300, 3)"; SQL statement:
+, (19, 'PANTS', 3300, 3) [42000-224]
+2024-05-17 16:14:22.032480+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (20, 'SNEAKERS', 9200, 3)"; SQL statement:
+, (20, 'SNEAKERS', 9200, 3) [42000-224]
+2024-05-17 16:14:22.033805+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (21, 'BAG', 2200, 3)"; SQL statement:
+, (21, 'BAG', 2200, 3) [42000-224]
+2024-05-17 16:14:22.035312+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (22, 'HAT', 1900, 3)"; SQL statement:
+, (22, 'HAT', 1900, 3) [42000-224]
+2024-05-17 16:14:22.036508+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (23, 'SOCKS', 2200, 3)"; SQL statement:
+, (23, 'SOCKS', 2200, 3) [42000-224]
+2024-05-17 16:14:22.038269+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (24, 'ACCESSORY', 2100, 3)"; SQL statement:
+, (24, 'ACCESSORY', 2100, 3) [42000-224]
+2024-05-17 16:14:22.039222+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (25, 'TOP', 10100, 4)"; SQL statement:
+, (25, 'TOP', 10100, 4) [42000-224]
+2024-05-17 16:14:22.040352+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (26, 'OUTER', 5100, 4)"; SQL statement:
+, (26, 'OUTER', 5100, 4) [42000-224]
+2024-05-17 16:14:22.041599+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (27, 'PANTS', 3000, 4)"; SQL statement:
+, (27, 'PANTS', 3000, 4) [42000-224]
+2024-05-17 16:14:22.042758+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (28, 'SNEAKERS', 9500, 4)"; SQL statement:
+, (28, 'SNEAKERS', 9500, 4) [42000-224]
+2024-05-17 16:14:22.044713+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (29, 'BAG', 2500, 4)"; SQL statement:
+, (29, 'BAG', 2500, 4) [42000-224]
+2024-05-17 16:14:22.045764+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (30, 'HAT', 1500, 4)"; SQL statement:
+, (30, 'HAT', 1500, 4) [42000-224]
+2024-05-17 16:14:22.046506+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (31, 'SOCKS', 2400, 4)"; SQL statement:
+, (31, 'SOCKS', 2400, 4) [42000-224]
+2024-05-17 16:14:22.047142+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (32, 'ACCESSORY', 2000, 4)"; SQL statement:
+, (32, 'ACCESSORY', 2000, 4) [42000-224]
+2024-05-17 16:14:22.047725+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (33, 'TOP', 10700, 5)"; SQL statement:
+, (33, 'TOP', 10700, 5) [42000-224]
+2024-05-17 16:14:22.048572+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (34, 'OUTER', 5000, 5)"; SQL statement:
+, (34, 'OUTER', 5000, 5) [42000-224]
+2024-05-17 16:14:22.049394+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (35, 'PANTS', 3800, 5)"; SQL statement:
+, (35, 'PANTS', 3800, 5) [42000-224]
+2024-05-17 16:14:22.050012+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (36, 'SNEAKERS', 9900, 5)"; SQL statement:
+, (36, 'SNEAKERS', 9900, 5) [42000-224]
+2024-05-17 16:14:22.052079+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (37, 'BAG', 2300, 5)"; SQL statement:
+, (37, 'BAG', 2300, 5) [42000-224]
+2024-05-17 16:14:22.054120+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (38, 'HAT', 1800, 5)"; SQL statement:
+, (38, 'HAT', 1800, 5) [42000-224]
+2024-05-17 16:14:22.055392+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (39, 'SOCKS', 2100, 5)"; SQL statement:
+, (39, 'SOCKS', 2100, 5) [42000-224]
+2024-05-17 16:14:22.057078+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (40, 'ACCESSORY', 2100, 5)"; SQL statement:
+, (40, 'ACCESSORY', 2100, 5) [42000-224]
+2024-05-17 16:14:22.058150+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (41, 'TOP', 11200, 6)"; SQL statement:
+, (41, 'TOP', 11200, 6) [42000-224]
+2024-05-17 16:14:22.058999+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (42, 'OUTER', 7200, 6)"; SQL statement:
+, (42, 'OUTER', 7200, 6) [42000-224]
+2024-05-17 16:14:22.060737+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (43, 'PANTS', 4000, 6)"; SQL statement:
+, (43, 'PANTS', 4000, 6) [42000-224]
+2024-05-17 16:14:22.061749+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (44, 'SNEAKERS', 9300, 6)"; SQL statement:
+, (44, 'SNEAKERS', 9300, 6) [42000-224]
+2024-05-17 16:14:22.062471+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (45, 'BAG', 2100, 6)"; SQL statement:
+, (45, 'BAG', 2100, 6) [42000-224]
+2024-05-17 16:14:22.063447+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (46, 'HAT', 1600, 6)"; SQL statement:
+, (46, 'HAT', 1600, 6) [42000-224]
+2024-05-17 16:14:22.065179+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (47, 'SOCKS', 2300, 6)"; SQL statement:
+, (47, 'SOCKS', 2300, 6) [42000-224]
+2024-05-17 16:14:22.065917+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (48, 'ACCESSORY', 1900, 6)"; SQL statement:
+, (48, 'ACCESSORY', 1900, 6) [42000-224]
+2024-05-17 16:14:22.066576+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (49, 'TOP', 10500, 7)"; SQL statement:
+, (49, 'TOP', 10500, 7) [42000-224]
+2024-05-17 16:14:22.067577+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (50, 'OUTER', 5800, 7)"; SQL statement:
+, (50, 'OUTER', 5800, 7) [42000-224]
+2024-05-17 16:14:22.068516+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (51, 'PANTS', 3900, 7)"; SQL statement:
+, (51, 'PANTS', 3900, 7) [42000-224]
+2024-05-17 16:14:22.069139+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (52, 'SNEAKERS', 9000, 7)"; SQL statement:
+, (52, 'SNEAKERS', 9000, 7) [42000-224]
+2024-05-17 16:14:22.069701+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (53, 'BAG', 2200, 7)"; SQL statement:
+, (53, 'BAG', 2200, 7) [42000-224]
+2024-05-17 16:14:22.071261+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (54, 'HAT', 1700, 7)"; SQL statement:
+, (54, 'HAT', 1700, 7) [42000-224]
+2024-05-17 16:14:22.072177+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (55, 'SOCKS', 2100, 7)"; SQL statement:
+, (55, 'SOCKS', 2100, 7) [42000-224]
+2024-05-17 16:14:22.072807+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (56, 'ACCESSORY', 2000, 7)"; SQL statement:
+, (56, 'ACCESSORY', 2000, 7) [42000-224]
+2024-05-17 16:14:22.073329+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (57, 'TOP', 10800, 8)"; SQL statement:
+, (57, 'TOP', 10800, 8) [42000-224]
+2024-05-17 16:14:22.073812+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (58, 'OUTER', 6300, 8)"; SQL statement:
+, (58, 'OUTER', 6300, 8) [42000-224]
+2024-05-17 16:14:22.074291+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (59, 'PANTS', 3100, 8)"; SQL statement:
+, (59, 'PANTS', 3100, 8) [42000-224]
+2024-05-17 16:14:22.074748+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (60, 'SNEAKERS', 9700, 8)"; SQL statement:
+, (60, 'SNEAKERS', 9700, 8) [42000-224]
+2024-05-17 16:14:22.075237+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (61, 'BAG', 2100, 8)"; SQL statement:
+, (61, 'BAG', 2100, 8) [42000-224]
+2024-05-17 16:14:22.075702+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (62, 'HAT', 1600, 8)"; SQL statement:
+, (62, 'HAT', 1600, 8) [42000-224]
+2024-05-17 16:14:22.076171+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (63, 'SOCKS', 2000, 8)"; SQL statement:
+, (63, 'SOCKS', 2000, 8) [42000-224]
+2024-05-17 16:14:22.076641+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (64, 'ACCESSORY', 2000, 8)"; SQL statement:
+, (64, 'ACCESSORY', 2000, 8) [42000-224]
+2024-05-17 16:14:22.077124+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (65, 'TOP', 11400, 9)"; SQL statement:
+, (65, 'TOP', 11400, 9) [42000-224]
+2024-05-17 16:14:22.077593+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (66, 'OUTER', 6700, 9)"; SQL statement:
+, (66, 'OUTER', 6700, 9) [42000-224]
+2024-05-17 16:14:22.078059+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (67, 'PANTS', 3200, 9)"; SQL statement:
+, (67, 'PANTS', 3200, 9) [42000-224]
+2024-05-17 16:14:22.078568+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (68, 'SNEAKERS', 9500, 9)"; SQL statement:
+, (68, 'SNEAKERS', 9500, 9) [42000-224]
+2024-05-17 16:14:22.079044+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (69, 'BAG', 2400, 9)"; SQL statement:
+, (69, 'BAG', 2400, 9) [42000-224]
+2024-05-17 16:14:22.079550+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (70, 'HAT', 1700, 9)"; SQL statement:
+, (70, 'HAT', 1700, 9) [42000-224]
+2024-05-17 16:14:22.080051+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (71, 'SOCKS', 1700, 9)"; SQL statement:
+, (71, 'SOCKS', 1700, 9) [42000-224]
+2024-05-17 16:14:22.080709+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*], (72, 'ACCESSORY', 2400, 9)"; SQL statement:
+, (72, 'ACCESSORY', 2400, 9) [42000-224]
