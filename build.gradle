@@ -26,14 +26,19 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'junit:junit:4.13.1'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
-    //	Docs
-    implementation 'org.springdoc:springdoc-openapi-ui:1.6.8'
+    // doc
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
+    // https://mvnrepository.com/artifact/org.zalando/problem-spring-web-starter
+    implementation group: 'org.zalando', name: 'problem-spring-web-starter', version: '0.29.1'
+
 }
 
 tasks.named('test') {

@@ -1,40 +1,34 @@
 package com.musinsa.mycoordinator.domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Convert;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
-import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Comment;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Getter
-@Entity
-@Table
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 public class Item {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Comment("카테고리")
-    @Column(nullable = false, length = 10)
-    @Convert(converter = ItemCategoryConverter.class)
     private ItemCategory category;
 
-    @Comment("가격")
-    @Column(nullable = false)
     private Integer price;
 
-    @Comment("브랜드")
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "brandId")
-    private Brand brand;
+    // TODO: 2024/05/17 change
+    private BrandEntity brandId;
+
+    public static Item from(ItemEntity itemEntity) {
+        return new Item(itemEntity.getId()
+                , itemEntity.getCategory()
+                , itemEntity.getPrice()
+                , itemEntity.getBrand());
+    }
+
+    public static List<Item> fromList(List<ItemEntity> itemEntities) {
+        return itemEntities.stream()
+                .map(Item::from)
+                .collect(Collectors.toList());
+    }
 }

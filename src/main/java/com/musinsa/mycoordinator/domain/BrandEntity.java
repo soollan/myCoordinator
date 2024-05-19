@@ -13,9 +13,9 @@ import org.hibernate.annotations.Comment;
 
 @Getter
 @Entity
-@Table
+@Table(name = "BRAND")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Brand {
+public class BrandEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
