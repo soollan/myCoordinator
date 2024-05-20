@@ -1,5 +1,6 @@
 package com.musinsa.mycoordinator.domain;
 
+import com.musinsa.mycoordinator.entity.ProductEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -9,13 +10,13 @@ import java.util.stream.Collectors;
 @Getter
 public class LowestHighestResponse {
 
-    ItemCategory category;
+    ProductCategory category;
 
     List<BrandPrice> lowest;
 
     List<BrandPrice> highest;
 
-    public LowestHighestResponse(ItemCategory category, List<ItemEntity> lowest, List<ItemEntity> highest) {
+    public LowestHighestResponse(ProductCategory category, List<ProductEntity> lowest, List<ProductEntity> highest) {
         this.category = category;
         this.lowest = BrandPrice.fromList(lowest);
         this.highest = BrandPrice.fromList(highest);
@@ -27,14 +28,14 @@ public class LowestHighestResponse {
         String brand;
         Integer price;
 
-        private static BrandPrice from(ItemEntity item) {
+        private static BrandPrice from(ProductEntity product) {
             return new BrandPrice(
-                    item.getBrand().getName()
-                    , item.getPrice());
+                    product.getBrand().getName()
+                    , product.getPrice());
         }
 
-        private static List<BrandPrice> fromList(List<ItemEntity> items) {
-            return items.stream()
+        private static List<BrandPrice> fromList(List<ProductEntity> products) {
+            return products.stream()
                     .map(BrandPrice::from)
                     .collect(Collectors.toList());
         }

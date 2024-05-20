@@ -1,6 +1,7 @@
 package com.musinsa.mycoordinator.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.musinsa.mycoordinator.entity.ProductEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +15,7 @@ public class LowestResponse {
     @Schema(description = "최저")
     BrandResponse lowest;
 
-    public LowestResponse(String brand, int totalPrice, List<ItemEntity> category) {
+    public LowestResponse(String brand, int totalPrice, List<ProductEntity> category) {
         this.lowest = new BrandResponse(brand, totalPrice, category);
     }
 
@@ -30,7 +31,7 @@ public class LowestResponse {
         @Schema(description = "총액")
         private Integer totalPrice;
 
-        private BrandResponse(String brand, int totalPrice, List<ItemEntity> category) {
+        private BrandResponse(String brand, int totalPrice, List<ProductEntity> category) {
             this.brand = brand;
             this.totalPrice = totalPrice;
             this.category = CategoryAndPriceResponse.fromList(category);
@@ -43,19 +44,19 @@ public class LowestResponse {
 
         @Schema(description = "카테고리")
         @JsonFormat(shape = JsonFormat.Shape.OBJECT)
-        private ItemCategory category;
+        private ProductCategory category;
 
         @Schema(description = "가격")
         private Integer price;
 
-        private static CategoryAndPriceResponse from(ItemEntity itemEntity) {
+        private static CategoryAndPriceResponse from(ProductEntity productEntity) {
             return new CategoryAndPriceResponse(
-                    itemEntity.getCategory()
-                    , itemEntity.getPrice());
+                    productEntity.getCategory()
+                    , productEntity.getPrice());
         }
 
-        private static List<CategoryAndPriceResponse> fromList(List<ItemEntity> itemEntities) {
-            return itemEntities.stream()
+        private static List<CategoryAndPriceResponse> fromList(List<ProductEntity> productEntities) {
+            return productEntities.stream()
                     .map(CategoryAndPriceResponse::from)
                     .collect(Collectors.toList());
 

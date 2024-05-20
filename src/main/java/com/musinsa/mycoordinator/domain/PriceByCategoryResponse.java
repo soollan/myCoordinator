@@ -9,13 +9,13 @@ import java.util.List;
 public class PriceByCategoryResponse {
 
     @Schema(description = "상품 정보")
-    List<Item> items;
+    List<Product> products;
 
     @Schema(description = "총액", example = "34100")
     private int totalPrice;
 
-    public PriceByCategoryResponse(List<Item> items) {
-        this.items = items;
-        this.totalPrice = items.stream().mapToInt(Item::getPrice).sum();
+    public PriceByCategoryResponse(List<Product> products) {
+        this.products = products;
+        this.totalPrice = products.stream().mapToInt(Product::getPrice).sum();
     }
 }

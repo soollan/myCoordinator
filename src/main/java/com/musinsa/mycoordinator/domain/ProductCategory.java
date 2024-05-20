@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum ItemCategory {
+public enum ProductCategory {
     TOP("상의"),
     OUTER("아우터"),
     PANTS("바지"),
@@ -19,8 +19,8 @@ public enum ItemCategory {
     @JsonValue
     private String description;
 
-    public static ItemCategory fromString(String dbData) {
-        for (ItemCategory category : ItemCategory.values()) {
+    public static ProductCategory fromString(String dbData) {
+        for (ProductCategory category : ProductCategory.values()) {
             if (category.name().equals(dbData)) {
                 return category;
             }
@@ -28,8 +28,8 @@ public enum ItemCategory {
         throw new IllegalArgumentException("Unknown enum type : " + dbData);
     }
 
-    public static ItemCategory fromDescription(String description) {
-        for (ItemCategory category : ItemCategory.values()) {
+    public static ProductCategory fromDescription(String description) {
+        for (ProductCategory category : ProductCategory.values()) {
             if (category.getDescription().equals(description)) {
                 return category;
             }
