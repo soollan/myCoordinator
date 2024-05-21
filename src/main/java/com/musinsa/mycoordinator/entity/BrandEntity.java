@@ -1,6 +1,6 @@
 package com.musinsa.mycoordinator.entity;
 
-import com.musinsa.mycoordinator.domain.BrandRequest;
+import com.musinsa.mycoordinator.domain.request.BrandRequest;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

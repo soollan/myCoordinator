@@ -1,4 +1,4 @@
-package com.musinsa.mycoordinator.domain;
+package com.musinsa.mycoordinator.domain.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;

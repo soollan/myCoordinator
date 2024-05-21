@@ -1,9 +1,9 @@
 package com.musinsa.mycoordinator.controller;
 
 import com.musinsa.mycoordinator.domain.ProductCategory;
-import com.musinsa.mycoordinator.domain.LowestHighestResponse;
-import com.musinsa.mycoordinator.domain.LowestResponse;
-import com.musinsa.mycoordinator.domain.PriceByCategoryResponse;
+import com.musinsa.mycoordinator.domain.response.LowestHighestResponse;
+import com.musinsa.mycoordinator.domain.response.LowestResponse;
+import com.musinsa.mycoordinator.domain.response.PriceByCategoryResponse;
 import com.musinsa.mycoordinator.service.PriceService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

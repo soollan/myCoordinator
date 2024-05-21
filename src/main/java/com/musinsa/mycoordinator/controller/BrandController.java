@@ -1,6 +1,6 @@
 package com.musinsa.mycoordinator.controller;
 
-import com.musinsa.mycoordinator.domain.BrandRequest;
+import com.musinsa.mycoordinator.domain.request.BrandRequest;
 import com.musinsa.mycoordinator.service.BrandService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

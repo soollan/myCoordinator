@@ -1,5 +1,6 @@
-package com.musinsa.mycoordinator.domain;
+package com.musinsa.mycoordinator.domain.response;
 
+import com.musinsa.mycoordinator.domain.Product;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 

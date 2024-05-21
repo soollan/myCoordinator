@@ -1,8 +1,11 @@
 package com.musinsa.mycoordinator.domain;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+
+import java.util.stream.Stream;
 
 @Getter
 @AllArgsConstructor
@@ -37,4 +40,11 @@ public enum ProductCategory {
         throw new IllegalArgumentException("Unknown description : " + description);
     }
 
+    @JsonCreator
+    public static ProductCategory parsing(String inputValue) {
+        return Stream.of(ProductCategory.values())
+                .filter(category -> category.toString().equals(inputValue.toUpperCase()))
+                .findFirst()
+                .orElse(null);
+    }
 }

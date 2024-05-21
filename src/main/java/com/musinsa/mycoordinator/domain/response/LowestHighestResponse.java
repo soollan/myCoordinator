@@ -1,5 +1,6 @@
-package com.musinsa.mycoordinator.domain;
+package com.musinsa.mycoordinator.domain.response;
 
+import com.musinsa.mycoordinator.domain.ProductCategory;
 import com.musinsa.mycoordinator.entity.ProductEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

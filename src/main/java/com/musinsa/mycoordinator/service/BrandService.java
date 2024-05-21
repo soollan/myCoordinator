@@ -1,6 +1,6 @@
 package com.musinsa.mycoordinator.service;
 
-import com.musinsa.mycoordinator.domain.BrandRequest;
+import com.musinsa.mycoordinator.domain.request.BrandRequest;
 import com.musinsa.mycoordinator.entity.BrandEntity;
 import com.musinsa.mycoordinator.exception.BusinessException;
 import com.musinsa.mycoordinator.repository.BrandRepository;
