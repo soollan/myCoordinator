@@ -28,6 +28,9 @@
 
 2. 코드 빌드, 테스트, 실행 방법
    1. port : 8081
+   2. 스웨거
+      1. http://localhost:8081/swagger-ui/index.html
+   3. 
 
 
 3. 기타추가정보

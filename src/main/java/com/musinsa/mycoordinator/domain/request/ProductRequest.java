@@ -3,10 +3,14 @@ package com.musinsa.mycoordinator.domain.request;
 import com.musinsa.mycoordinator.domain.ProductCategory;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.validation.constraints.NotNull;
 
 @Getter
+@Setter
+@NoArgsConstructor
 public class ProductRequest {
 
     @NotNull(message = "카테고리는 필수값 입니다.")

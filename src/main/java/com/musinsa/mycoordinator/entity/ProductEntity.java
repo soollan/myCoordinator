@@ -8,11 +8,13 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Comment;
-import org.hibernate.annotations.DynamicUpdate;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.Where;
 
 import javax.persistence.Column;
 import javax.persistence.Convert;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -23,6 +25,8 @@ import javax.persistence.Table;
 @Getter
 @Entity
 @Table(name = "PRODUCT")
+@Where(clause = "deleted = false")
+@SQLDelete(sql = "UPDATE PRODUCT SET deleted = true WHERE id = ?")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class ProductEntity {
 
@@ -40,12 +44,16 @@ public class ProductEntity {
     private Integer price;
 
     @Comment("브랜드")
-    @ManyToOne(optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "brandId")
     private BrandEntity brand;
 
+    @Comment("삭제여부")
+    @Column(nullable = false)
+    private boolean deleted = Boolean.FALSE;
+
     /**
-     * Convert BrandRequest to BrandEntity
+     * BrandRequest to BrandEntity
      */
     public static ProductEntity from(ProductRequest request, BrandEntity brand) {
         ProductEntity product = new ProductEntity();
@@ -62,11 +70,11 @@ public class ProductEntity {
     public void updateProduct(UpdateProductRequest request, BrandEntity brand) {
         this.brand = brand;
 
-        if(request.getCategory() != null) {
+        if (request.getCategory() != null) {
             this.category = request.getCategory();
         }
 
-        if(request.getPrice() > 0) {
+        if (request.getPrice() > 0) {
             this.price = request.getPrice();
         }
     }

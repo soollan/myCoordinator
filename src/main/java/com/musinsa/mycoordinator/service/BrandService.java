@@ -23,7 +23,7 @@ public class BrandService {
         BrandEntity brand = BrandEntity.from(request);
 
         boolean hasBrandName = brandRepository.existsByName(request.getName());
-        if(hasBrandName) {
+        if (hasBrandName) {
             throw new BusinessException("이미 등록된 브랜드명입니다.");
         }
 

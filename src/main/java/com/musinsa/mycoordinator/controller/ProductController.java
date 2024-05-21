@@ -2,9 +2,9 @@ package com.musinsa.mycoordinator.controller;
 
 import com.musinsa.mycoordinator.domain.request.ProductRequest;
 import com.musinsa.mycoordinator.domain.request.UpdateProductRequest;
-import com.musinsa.mycoordinator.exception.BusinessException;
 import com.musinsa.mycoordinator.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -37,10 +37,13 @@ public class ProductController {
         productService.updateProduct(request);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/{productId}")
     @Operation(summary = "상품 삭제")
-    public void deleteProduct(@PathVariable long id) {
-        productService.deleteProduct(id);
+    public void deleteProduct(
+            @PathVariable
+            @Parameter(description = "상품 ID")
+                    long productId) {
+        productService.deleteProduct(productId);
     }
 
 }

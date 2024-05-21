@@ -50,6 +50,9 @@ public class ProductService {
      * 상품 삭제
      */
     public void deleteProduct(long id) {
+        ProductEntity product = productRepository.findById(id)
+                .orElseThrow(() -> new NotFoundException("해당 상품이 없습니다."));
 
+        productRepository.delete(product);
     }
 }
