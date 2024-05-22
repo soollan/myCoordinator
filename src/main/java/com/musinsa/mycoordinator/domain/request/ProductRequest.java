@@ -1,6 +1,6 @@
 package com.musinsa.mycoordinator.domain.request;
 
-import com.musinsa.mycoordinator.domain.ProductCategory;
+import com.musinsa.mycoordinator.domain.code.ProductCategory;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,7 +21,7 @@ public class ProductRequest {
     @Schema(description = "금액", example = "5000")
     private int price;
 
-    @NotNull(message = "브랜드ID는 필수값 입니다.")
+    @NotNull(message = "브랜드 ID는 필수값 입니다.")
     @Schema(description = "브랜드 ID", example = "1")
     private long brandId;
 }

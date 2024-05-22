@@ -40,8 +40,13 @@ public class ProductService {
         ProductEntity product = productRepository.findById(request.getProductId())
                 .orElseThrow(() -> new NotFoundException("해당 상품이 없습니다."));
 
-        BrandEntity brand = brandRepository.findById(request.getBrandId())
-                .orElseThrow(() -> new NotFoundException("해당 브랜드가 없습니다."));
+        BrandEntity brand;
+        if (request.getBrandId() > 0) {
+            brand = brandRepository.findById(request.getBrandId())
+                    .orElseThrow(() -> new NotFoundException("해당 브랜드가 없습니다."));
+        } else {
+            brand = product.getBrand();
+        }
 
         product.updateProduct(request, brand);
     }

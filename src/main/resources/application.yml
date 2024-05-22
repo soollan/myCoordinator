@@ -8,10 +8,9 @@ spring:
   datasource:
     hikari:
       driver-class-name: org.h2.Driver
-#      jdbcUrl: jdbc:h2:file:/home/ho/ran/db/winedb;
       jdbcUrl: jdbc:h2:file:./db/musinsa;AUTO_SERVER=true
       username: musinsa
-      password: musinsa
+      password:
   h2:
     console:
       enabled: true
@@ -29,4 +28,4 @@ spring:
 
 logging:
   level:
-    root: debug
+    root: info

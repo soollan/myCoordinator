@@ -1,6 +1,6 @@
 package com.musinsa.mycoordinator.service;
 
-import com.musinsa.mycoordinator.domain.ProductCategory;
+import com.musinsa.mycoordinator.domain.code.ProductCategory;
 import com.musinsa.mycoordinator.domain.request.ProductRequest;
 import com.musinsa.mycoordinator.domain.request.UpdateProductRequest;
 import com.musinsa.mycoordinator.exception.NotFoundException;

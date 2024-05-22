@@ -1,7 +1,7 @@
 package com.musinsa.mycoordinator.domain.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.musinsa.mycoordinator.domain.ProductCategory;
+import com.musinsa.mycoordinator.domain.code.ProductCategory;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

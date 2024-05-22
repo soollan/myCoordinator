@@ -1,4 +1,4 @@
-package com.musinsa.mycoordinator.domain;
+package com.musinsa.mycoordinator.domain.code;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;

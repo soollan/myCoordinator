@@ -5,9 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.zalando.problem.jackson.ProblemModule;
 
-/**
- * Problem 라이브러리 설정
- */
 @Configuration
 public class ProblemConfig {
     @Autowired

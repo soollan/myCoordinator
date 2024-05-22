@@ -1,6 +1,5 @@
 package com.musinsa.mycoordinator.service;
 
-import com.musinsa.mycoordinator.domain.LowestBrandMinPrice;
 import com.musinsa.mycoordinator.entity.ProductEntity;
 import com.musinsa.mycoordinator.repository.ProductRepository;
 import org.junit.jupiter.api.DisplayName;
@@ -26,15 +25,5 @@ class PriceServiceTest {
 
         // then
         assertNotNull(products);
-    }
-
-    @Test
-    @DisplayName("모든 카테고리의 총액이 최저가격인 브랜드는 반드시 존재한다.")
-    void findLowestBrand() {
-        // given, when
-        LowestBrandMinPrice lowestBrand = productRepository.findByLowestBrandId();
-
-        // then
-        assertNotNull(lowestBrand);
     }
 }

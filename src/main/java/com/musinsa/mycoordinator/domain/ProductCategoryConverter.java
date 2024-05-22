@@ -1,6 +1,8 @@
 package com.musinsa.mycoordinator.domain;
 
 
+import com.musinsa.mycoordinator.domain.code.ProductCategory;
+
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 

@@ -1,6 +1,6 @@
 package com.musinsa.mycoordinator.controller;
 
-import com.musinsa.mycoordinator.domain.ProductCategory;
+import com.musinsa.mycoordinator.domain.code.ProductCategory;
 import com.musinsa.mycoordinator.domain.response.LowestHighestResponse;
 import com.musinsa.mycoordinator.domain.response.LowestResponse;
 import com.musinsa.mycoordinator.domain.response.PriceByCategoryResponse;
@@ -22,8 +22,7 @@ public class PriceController {
 
     private final PriceService priceService;
 
-    // TODO: 2024/05/19 응답 데이터 중 가격은 콤마처리해야될ㄷㅅ
-    // TODO: 2024/05/20 응답 한글로
+    // TODO: 2024/05/19 응답 데이터 중 가격은 콤마처리
 
     @GetMapping("/lowest")
     @Operation(summary = "카테고리 별 최저가격 브랜드와 상품 가격, 총액을 조회")
@@ -32,7 +31,7 @@ public class PriceController {
     }
 
     @GetMapping("/lowest/combo")
-    @Operation(summary = "모든 카테고리 구매시, 최저가격 브랜드 및 정보 조회")
+    @Operation(summary = "단일 브랜드로 모든 카테고리 상품을 구매할 때 최저가격에 판매하는 브랜드와 카테고리의 상품가격, 총액을 조회")
     public LowestResponse findBrand() {
         return priceService.findLowestBrand();
     }

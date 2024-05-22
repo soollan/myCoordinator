@@ -1,7 +1,7 @@
 package com.musinsa.mycoordinator.entity;
 
-import com.musinsa.mycoordinator.domain.ProductCategory;
 import com.musinsa.mycoordinator.domain.ProductCategoryConverter;
+import com.musinsa.mycoordinator.domain.code.ProductCategory;
 import com.musinsa.mycoordinator.domain.request.ProductRequest;
 import com.musinsa.mycoordinator.domain.request.UpdateProductRequest;
 import lombok.AccessLevel;
